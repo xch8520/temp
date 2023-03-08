@@ -1,0 +1,44 @@
+#在oci=begin和oci=end之间放入你的API配置信息 支持多个配置文件 机器人切换profile可更换操作配置
+oci=begin
+
+[DEFAULT]
+user=ocid1.user.oc1..aaaaaaaatze4jr5ih5gr4nmczztaubfsoj5k5tnl4pkdw7s6ajo3udwiwjka
+fingerprint=6a:5a:75:fe:43:7d:90:d5:04:67:5a:3f:31:9d:9a:02
+tenancy=ocid1.tenancy.oc1..aaaaaaaaurjgy4wlrgjzke74nakvey2drupcca4znz5fnr7oxomq3tmap45q
+region=us-phoenix-1
+key_file=/root/oci_api_key.pem
+
+oci=end
+
+
+
+#用户信息 从 https://t.me/radiance_helper_bot 配置(bot可使用/raninfo命令随机生成)
+#必传
+username=7599c1e3ce014ab3889c94312e950bbb
+#必传
+password=fa98471703d84a47b728d2e2694a2f11
+
+
+#cloudflare 功能参数 非必传
+#非必传 cloudflare邮箱
+cf_email=
+#非必传 cloudflare key 在我的个人资料->API令牌处->API密钥->Global API Key	获取
+cf_account_key=
+
+
+#非必填 本机ip和端口号 (进阶玩家选项 可填写域名) 不写将自动获取本机ip 并使用默认端口号9527 (小白用户建议不填) 如填写 格式为:https://xxx.xx:9527
+local_address=
+#非必填 url名称(默认为address 可在bot上修改)
+local_url_name=
+
+
+#非必填 启动模式 填写local为启动本地无公网IP模式(只要能联网即可) 不填或填其他 则启动端口模式
+model=
+
+
+
+#在azure=begin和azure=end之间放入你的azure的API配置信息 支持多个配置文件 机器人切换profile可更换操作配置
+azure=begin
+
+azure=end
+
